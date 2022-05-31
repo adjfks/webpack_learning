@@ -1,0 +1,37 @@
+Arguments: 
+  C:\nodejs\node.exe C:\nodejs\node_modules\yarn\bin\yarn.js add webpack webpack-cli -S -D
+
+PATH: 
+  C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;D:\installation\git\install\Git\cmd;D:\installation\xshell\;C:\nvm;C:\nodejs;D:\installation\redis\Redis-x64-5.0.14;D:\installation\vscode\Microsoft VS Code\bin;D:\installation\wechet-devtools\微信web开发者工具\dll;C:\Users\PencilX\AppData\Local\pnpm;C:\Users\PencilX\AppData\Local\Programs\Python\Python38\Scripts\;C:\Users\PencilX\AppData\Local\Programs\Python\Python38\;C:\Users\PencilX\AppData\Local\Microsoft\WindowsApps;D:\����\BandZip\;C:\Users\PencilX\AppData\Roaming\npm;D:\installation\MongoDB\MongoDB\bin;D:\installation\Typora\Typora;C:\nvm;C:\nodejs
+
+Yarn version: 
+  1.22.18
+
+Node version: 
+  16.13.2
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error [ERR_TLS_CERT_ALTNAME_INVALID]: Hostname/IP does not match certificate's altnames: Host: registry.npm.taobao.org. is not in the cert's altnames: DNS:drcom.szu.edu.cn
+      at new NodeError (node:internal/errors:371:5)
+      at Object.checkServerIdentity (node:tls:346:12)
+      at TLSSocket.onConnectSecure (node:_tls_wrap:1540:27)
+      at TLSSocket.emit (node:events:390:28)
+      at TLSSocket._finishInit (node:_tls_wrap:944:8)
+      at TLSWrap.ssl.onhandshakedone (node:_tls_wrap:725:12)
+
+npm manifest: 
+  {
+    "name": "my_loader_plugin",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
